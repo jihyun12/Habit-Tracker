@@ -14,7 +14,7 @@ const HabitAddForm = memo(props => {
     return (
         <form className="add-form" onSubmit={onSubmit}>
             <input 
-                ref={inputRef}
+                ref={this.inputRef}
                 type="text" 
                 className="add-input" 
                 placeholder="Habit" 
